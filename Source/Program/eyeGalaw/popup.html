@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!-- saved from url=(0080)https://developer.chrome.com/extensions/examples/tutorials/getstarted/popup.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>eyeGalaw</title>
+      <link href = "src/thirdParty/jquery-ui.css"   rel = "stylesheet">
+      <link href = "src/thirdParty/jquery.switchButton.css"   rel = "stylesheet">
+      <link rel="stylesheet" href="src/css/flat-slider.css">
+      <link rel="stylesheet" href="src/thirdParty/toastr.min.css">
+      <link rel="stylesheet" href="src/css/popup.css">
+   
+    <script src="src/thirdParty/jquery-3.1.1.min.js"></script>
+    
+    <script src = "src/thirdParty/jquery-ui.js"></script>
+    <script src = "src/thirdParty/toastr.min.js"></script>
+    
+
+    <script src="src/js/popup.js"></script>
+
+
+  </head>
+  <body>
+
+  <div id="main">
+    <div id="inner-div">
+       <!-- pop up -->
+      <!--  -->
+      <div class="" id="curve-div">
+        <img src="src/img/icon2.png" data-alt-src="src/img/icond.png"  class="center masterTooltip" id="eyeGalaw-icon" title="What is eyeGalaw?">
+        <a class="center myButton " id="start_button" href="#" ></a>
+      </div>
+      <a class="ghost-button options center" href="#" id="options">Options▲</a>
+      <div class="dropdown center low-opacity" id="effect" >
+        <span class="label masterTooltip" title="Lines per text scroll"> Scrolling speed </span> <a  class="help masterTooltip" href="#" title="Lines per text scroll" >?</a>
+        <div class="flat-slider" id="flat-slider2"></div><span id="slider-value-scroll" class="slider-value"></span>
+
+        <span class="label masterTooltip" title="Transparancy/Opaqueness of controls" > Opacity </span>  <a class="help masterTooltip" title="Transparancy/Opaqueness of controls" href="#">?</a>
+        <div class="flat-slider" id="flat-slider1"></div>      
+        <span id="slider-value-opacity" class="slider-value"></span>
+
+        <span class="label masterTooltip" title="Enables/disable videofeed for face viewing" > Eye video feed </span><a class="help masterTooltip" href="#" title="Enables/disable videofeed for face viewing" >?</a>
+        <div class="onoffswitch ">
+            <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch">
+            <label class="onoffswitch-label" for="myonoffswitch">
+                <span class="onoffswitch-inner"></span>
+                <span class="onoffswitch-switch"></span>
+            </label>
+        </div>
+
+      </div>
+    </div>
+
+    
+  </div>
+
+    </div>
+  
+
+
+</body></html>
